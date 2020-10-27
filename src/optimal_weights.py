@@ -42,7 +42,6 @@ def run(pred_df, fold):
 
     return opt.coef_
 
-
 if __name__ == "__main__":
     files = glob.glob("../model_preds/*.csv")
     df = None

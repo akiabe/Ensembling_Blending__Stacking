@@ -12,4 +12,5 @@ if __name__ == "__main__":
     for f, (t_, v_) in enumerate(skf.split(X=df, y=y)):
         df.loc[v_, "kfold"] = f
 
-    df.to_csv("../input/train_folds.csv", index=False)
+    print(df)
+    #df.to_csv("../input/train_folds.csv", index=False)
